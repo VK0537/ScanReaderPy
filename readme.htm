@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Help ScanReaderPro</title>
+	<style>
+	h1 {
+		font-family:verdana;
+		font-size:20px;
+		text-decoration:underline;
+		font-weight:bold;
+		text-align: center
+	}
+	
+	h2 {
+		font-family:verdana;
+		font-size:18px;
+		font-weight:normal;
+		text-decoration:underline
+	}
+	
+	p {
+		font-family:helvetica;
+		font-size:16px;
+		text-align:justify
+	}
+	
+	ul {
+	}
+	
+	li {
+		font-family:helvetica;
+		font-size:14px
+	}
+	
+	a {
+		font-family:courier;
+		color:blue;
+		text-decoration:underline
+	}
+	</style>
+</head>
+
+<body spellcheck="false">
+    <p style="margin:20px"><img src="data:image/png;base64,
+	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
+	f7iIoWGGsUvHAAAAAElFTkSuQmCC" style="width: 67px;"></p>
+	<div style="margin:100px">
+	<h1>PAGE D&#39;AIDE SCANREADERPRO</h1>
+    <h2>Sommaire :</h2>
+    <ul>
+        <li><a href="#install">Installation et ouverture</a></li>
+        <li><a href="#open">Comment ouvrir un fichier</a></li>
+        <li><a href="#other">Autres commandes</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <h2 id="install">Installation et ouverture :</h2>
+    <p>Pour installer et ouvrir l&#39;application, 
+	t&eacute;l&eacute;chargez le fichier archive et extrayez les fichiers &agrave; 
+	l&#39;aide d&#39;un utilitaire d&#39;archive tel que 7-Zip. Ensuite, dans le 
+	dossier d&#39;installation, ouvrez le fichier <strong>ScanReaderPro.py</strong>. 
+	Si, &agrave; un moment dans l&#39;utilisation de l&#39;application, la console 
+	renvoie un message d&#39;erreur, v&eacute;rifiez que tous les dossiers et fichiers 
+	suivant soient présents : </p>
+	<ul>
+        <li>ScanReaderPro.py</li>
+        <li>readme.htm</li>
+        <li>dossier icon contenant :
+			<ul>
+                <li>add.png</li>
+                <li>glass.png</li>
+                <li>logo.png</li>
+                <li>logo.ico</li>
+                <li>menu.png</li>
+                <li>zoomin.png</li>
+                <li>zoomout.png</li>
+            </ul>
+        </li>
+    </ul>
+	<p>Si le probl&egrave;me persiste, rendez-vous &agrave; la section 
+	<a href="#contact">Contact</a> de cette page.</p>
+    <h2 id="open">Comment ouvrir un fichier :</h2>
+    <p>Quand l&#39;application s&#39;ouvre, plusieurs boutons s&#39;offrent &agrave; 
+	vous. Pour commencer &agrave; lire un scan, cliquez sur le bouton qui 
+	pr&eacute;sente un &bigoplus; ou effectuez la combinaison de touches Ctrl+n. Une nouvelle 
+	fen&ecirc;tre s&#39;ouvre alors, et vous pouvez choisir un fichier zip uniquement 
+	(rar non support&eacute;s) d&#39;une taille inf&eacute;rieure &agrave; 4Go. Ce 
+	fichier peut contenir directement les images au format png ou jpg mais aussi un ou 
+	plusieurs dossiers contenant eux-m&ecirc;mes les images. S&rsquo;il y a plusieurs 
+	dossiers, ils seront trait&eacute;s comme plusieurs volumes cons&eacute;cutifs et 
+	l&#39;un s&#39;ouvrira quand vous fermerez le pr&eacute;c&eacute;dent.</p>
+    <p>Pour naviguer dans la fen&ecirc;tre de lecture, utilisez les fl&egrave;ches de 
+	votre clavier ou cliquez sur le c&ocirc;t&eacute; de la fen&ecirc;tre pour changer 
+	de page. Pour vous rendre &agrave; une page donn&eacute;e, tapez le num&eacute;ro 
+	de celle-ci dans la case blanche en bas &agrave; droite. Pour zoomer, cliquez sur 
+	la loupe contenant un + et pour revenir &agrave; la normale, celle avec le - .</p>
+    <p>Quand vous &ecirc;tes arriv&eacute;s &agrave; la derni&egrave;re page, vous 
+	pouvez cliquer sur le c&ocirc;t&eacute; de la fen&ecirc;tre ou sur la fl&egrave;che 
+	correspondant &agrave; &quot;page suivante&quot; pour fermer la fen&ecirc;tre.</p>
+    <h2 id="other">Autres commandes :</h2>
+	<p>Sur la fen&ecirc;tre principale, on trouve un bouton menu &#9776; qui 
+	propose plusieurs options :</p>
+    <ul>
+        <li>&quot;Clear library&quot; pour supprimer l&#39;historique</li>
+		<li>&quot;Reading direction&quot; pour choisir entre une orientation Comics 
+		par d&eacute;faut (droite = suivant) et une orientation Manga 
+		(gauche=suivant)</li>
+		<li>&quot;Help&quot; pour afficher cette page d&#39;aide</li>
+    </ul>
+	<p>Dans l&#39;historique, double cliquez sur le nom d&#39;un fichier pour l&#39;ouvrir de 
+	nouveau. Attention, celui-ci ne doit pas avoir &eacute;t&eacute; 
+	d&eacute;plac&eacute;.</p>
+    <p>Tapez un mot ou un chiffre dans la barre de recherche pour obtenir les 
+	r&eacute;sultats correspondants. Si vous tapez sur la touche entr&eacute;e sans que 
+	rien ne soit dans la barre de recherche, la fen&ecirc;tre revient &agrave; 
+	l&#39;affichage de l&#39;historique classique.&nbsp;</p>
+    <p>Lors de l&#39;ajout d&#39;un titre dans l&#39;historique, si celui-ci apparait 
+	en double, la plus ancienne version sera supprim&eacute;e. </p>
+    <h2 id="contact">Contact :</h2>
+    <p>Si vous rencontrez un probl&egrave;me au cours de votre utilisation, merci 
+	de le reporter en envoyant un e-mail &agrave; cette adresse : 
+	<a href="mailto:viktor.brothier@gmail.com?Subject=Bug%20report%20SRP"
+	target="blank">viktor.brothier@gmail.com</a>. <br>D&#39;autres 
+	fonctionnalit&eacute;s sont en &quot;work in progress&quot; mais nous avons 
+	aussi besoin de vos suggestions pour am&eacute;liorer l&#39;application. Nous 
+	comptons sur vous !</p>
+	</div>
+</body>
+
+</html>
